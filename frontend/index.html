@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrapV5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/header.css">
+    <title>Document</title>
+</head>
+<body class="">
+  <!-- HEADER -->
+    <header>
+      <!-- FIRST PART HEADER -->
+      <div class="bg-light border-bottom mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              <img src="" alt="">
+            </div>
+            <div class="col-auto">
+              <p class="m-0">Minitério do Trabalho e Emprego</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIRST PART HEADER -->
+
+      <!-- SECOND PART HEADER -->
+      <div class="bg-light border-bottom mb-1 border-top">
+        <div class="container ">
+          <div class="justify-content-center d-flex align-items-center text-center">
+            <div class="col-6">
+              <p class="m-0">Intermediação de Mão-de-Obra - IMO</p>
+            </div>
+            <div class="col-6">
+              <p class="m-0">Portal MTE Mais Emprego</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SECOND PART HEADER -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trabalahdor
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Empregador
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administrração de Vagas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administração
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ajuda
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sair</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="justify-content-center d-flex align-items-center mt-1" >
+      <div class="bg-light container border rounded">
+        <form action="#" class="needs-validation p-5" novalidate>
+          <!-- PERSONAL DATA -->
+          <div class="row justify-content-center">
+              
+            <!-- PIS/ NIS/ NIT -->
+            <div class="col-auto align-self-center">
+              <label class="form-label m-0">PIS/ NIS/ NIT</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" class="form-control" id="cpf" 
+              placeholder="C.P.F" minlength="14" required>
+              <div class="invalid-feedback"> 
+                Insira um C.P.F
+              </div>
+            </div>
+              <!-- C.P.F -->
+
+            <div class="col-auto">
+              <button class="btn btn-success" type="submit">
+                Consultar
+              </button>
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-success " type="submit">
+                Pesquisa Avançada
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <form action="home.html" class="needs-validation container my-1 p-5" novalidate>
+          <!-- PERSONAL DATA -->
+          <div class="row justify-content-center">
+              
+            <div class="col-auto align-self-center">
+              <label class="form-label m-0">C.P.F</label>
+            </div>
+            <div class="col-auto mx-2">
+              <input type="text" class="form-control" id="cpf" 
+              placeholder="C.P.F" minlength="14" required>
+              <div class="invalid-feedback"> 
+                Insira um C.P.F
+              </div>
+            </div>
+            <!-- C.P.F -->
+
+            <div class="col-auto">
+              <button class="btn btn-success" type="submit">
+                Consultar
+              </button>
+            </div>
+            <div class="col-auto align-self-center">
+              <label class="form-label m-0">C.P.F</label>
+            </div>
+            <div class="col-auto mx-2">
+              <input type="text" class="form-control" id="cpf" 
+              placeholder="C.P.F" minlength="14" required>
+              <div class="invalid-feedback"> 
+                Insira um C.P.F
+              </div>
+            </div>
+            <!-- C.P.F -->
+
+            <div class="col-auto">
+              <button class="btn btn-success" type="submit">
+                Consultar
+              </button>
+            </div>
+            <div class="col-auto align-self-center">
+              <label class="form-label m-0">C.P.F</label>
+            </div>
+            <div class="col-auto mx-2">
+              <input type="text" class="form-control" id="cpf" 
+              placeholder="C.P.F" minlength="14" required>
+              <div class="invalid-feedback"> 
+                Insira um C.P.F
+              </div>
+            </div>
+            <!-- C.P.F -->
+
+            <div class="col-auto">
+              <button class="btn btn-success" type="submit">
+                Consultar
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-light text-muted border mt-1 footer-fixed-bottom container-fluid">
+      <div class="container text-left mt-4">
+          <div class="row">
+              <div class="col-md-3 mx-auto mb-4 align-self-center">
+                  <h6 class="text-uppercase mb-4">
+                      Prefeitura Municipal de Bragança Paulista
+                  </h6>
+              </div>
+              <div class="col-md-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                      Endereço
+                  </h6>
+                  <p>Av. Antonio Pires Pimentel, 2015 - Centro Bragança Paulista/SP - CEP: 12914 900</p>
+              </div>
+              <div class="col-md-3 mx-auto mb-4">
+                  <!-- LINKS -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                  Contato
+                  </h6>
+                  <p>(11) 4034-7149 – Ouvidoria</p>
+                  <p>(11) 4034–7102 – CallCenter</p>
+                  <p>0800-038-0037 – CallCenter</p>
+              </div>
+              <div class="col-md-4 mx-auto mb-4">
+                  <h6 class="text-uppercase mb-4">
+                      Link úteis
+                  </h6>
+                  <p>Lista de telefone das secretarias</p>
+              </div>
+          </div>
+      </div>
+      <div class="text-center p-4 footer-div-copyright">
+          <p>© COPYRIGHT 2021, Prefeitura Municipal de Bragança Paulista, DIT - Divisão de Inovação e Tecnologia</p>
+          <a href="https://github.com/EmmanoelBuonafinaTome" target="_blank" rel="external">Emmanoel Buonafina Tomé</a>
+      </div>
+  </footer>
+  <!-- FOOTER -->
+  <script src="../bootstrapV5/js/bootstrap.min.js"></script>
+  <script src="../bootstrapV5/js/popper.js"></script>
+  <script src="js/js-for-bootstrap.js"></script>
+</body>
+</html>

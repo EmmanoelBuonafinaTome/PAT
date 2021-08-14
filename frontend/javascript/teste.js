@@ -21,3 +21,5 @@ function validarCPF(){
     //     document.getElementById("cpfvalid").innerHTML = "Insira um CPF valido!";
     // }
 }
+
+//

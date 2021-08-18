@@ -1,3 +1,7 @@
 .footer-div-copyright{
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+.color-border-top-orange{
+    border-top: 2px solid var(--color01);
+}

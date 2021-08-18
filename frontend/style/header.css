@@ -1,0 +1,11 @@
+.bg-dark-blue{
+    background: var(--color02);
+}
+
+.bg-content-grey{
+    background: var(--color01);
+}
+
+.color-border-bottom-orange{
+    border-bottom: 2px solid var(--color01);
+}

@@ -157,11 +157,12 @@
                 </div>
             </div>
 
-            <!-- FORM PIS -->
-            <form class="row g-3 mb-3 needs-validation justify-content-center border rounded m-auto" novalidate>
+            <!-- FORM PIS/NIS/NIT -->
+            <form class="row g-3 mb-3 needs-validation justify-content-center 
+            border rounded m-auto" novalidate>
                 <div class="col-md-3">
-                    <label for="validationServer01" class="form-label">PIS</label>
-                    <input type="text" class="form-control " id="validationServer01"
+                    <label for="validationServer01" class="form-label">PIS/NIS/NIT</label>
+                    <input type="text" class="form-control " id="pis-nis-nit"
                     placeholder="" required>
                     <div id="validationServerUsernameFeedback" class="invalid-feedback">
                         C.P.F
@@ -176,14 +177,14 @@
                     </div>
                 </div>
             </form>
-            <!-- FORM PIS -->
+            <!-- FORM PIS/NIS/NIT -->
 
             <!-- FORM CPF -->
             <form class="row g-3 mt-3 needs-validation justify-content-center border rounded m-auto" novalidate>
                 <div class="col-md-3">
                     <label for="validationServer01" class="form-label">C.P.F</label>
-                    <input type="text" class="form-control " id="validationServer01"
-                    placeholder="" required>
+                    <input type="text" class="form-control " id="cpf"
+                    placeholder="C.P.F" required>
                     <div id="validationServerUsernameFeedback" class="invalid-feedback">
                         C.P.F
                     </div>
@@ -215,6 +216,9 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="javascript/date/current-date.js"></script>
     <script src="javascript/bootstrap/bootstrap-for-validation.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="javascript/jquery/jquery.mask.min.js"></script>
+    <script src="javascript/jquery/mask.js"></script>
     <!-- LINK'S SCRIPT'S -->
 </body>
 </html>

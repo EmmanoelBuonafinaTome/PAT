@@ -1,0 +1,18 @@
+:root{
+
+    --color01: #DADADA;
+    --color02: #223078;
+
+}
+
+.header-cinza{
+    background-color: var(--color01);
+}
+
+.navbar-azul{
+    background-color: var(--color02);
+}
+
+.a{
+    height: 50px;
+}

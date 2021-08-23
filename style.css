@@ -13,6 +13,31 @@
     background-color: var(--color02);
 }
 
-.a{
-    height: 50px;
+.tamanho-div-header{
+    height: 56px;
+}
+
+.bordar-top-bottom-orange{
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.teste{
+    height: 500px;
+    margin-top: 112px;
+}
+
+main{
+    height: 7v;
+}
+
+.footer-div-copyright{
+    background-color: rgba(0, 0, 0, 0.05);
 }

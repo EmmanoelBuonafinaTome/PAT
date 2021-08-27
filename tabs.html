@@ -23,7 +23,6 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
-            Microcurso de Bootstrap
           </a>
         </div>
       </div>
@@ -34,24 +33,86 @@
         <ul class="nav nav-tabs" id="tabEtapas" role="tablist">
 
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                <button class="nav-link active" id="dados-pessoais-tab" data-bs-toggle="tab" data-bs-target="#etapa1" type="button" role="tab" aria-controls="dados-pessoais" aria-selected="true">Dados Pessoais</button>
             </li>
 
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="etapa-tab" data-bs-toggle="tab" data-bs-target="#etapa2" type="button" role="tab" aria-controls="etapa2" aria-selected="true">etapa</button>
+                <button class="nav-link" id="endereco-tab" data-bs-toggle="tab" data-bs-target="#etapa2" type="button" role="tab" aria-controls="endereco" aria-selected="true">Endereço</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contato-tab" data-bs-toggle="tab" data-bs-target="#etapa3" type="button" role="tab" aria-controls="contato" aria-selected="true">Contato</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="documentos-tab" data-bs-toggle="tab" data-bs-target="#etapa4" type="button" role="tab" aria-controls="documentos" aria-selected="true">Documentos</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="formacao-academica-tab" data-bs-toggle="tab" data-bs-target="#etapa5" type="button" role="tab" aria-controls="formacao-academica" aria-selected="true">Formação Acadêmica</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="dados-gerais-trabalahdor-tab" data-bs-toggle="tab" data-bs-target="#etapa6" type="button" role="tab" aria-controls="dados-gerais-trabalahdor" aria-selected="true">Dados Gerais</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="experencia-professionais-tab" data-bs-toggle="tab" data-bs-target="#etapa7" type="button" role="tab" aria-controls="experencia-professionais" aria-selected="true">Experiência Professioanis</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="prestacao-profisisonal-tab" data-bs-toggle="tab" data-bs-target="#etapa8" type="button" role="tab" aria-controls="prestacao-profisisonal" aria-selected="true">Prestação profissional</button>
             </li>
 
           </ul>
           <div class="tab-content" id="myTabContent">
 
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane fade show active" id="etapa1" role="tabpanel" aria-labelledby="dados-pessoais-tab">
                 1
-                <button onclick="alteraEtapa(2)" class="btn btn-info">Próxima Etapa</button>
+                <button onclick="alteraEtapa(2)" class="btn btn-info">Avançar</button>
             </div>
 
-            <div class="tab-pane fade" id="etapa2" role="tabpanel" aria-labelledby="etapa-tab">
+            <div class="tab-pane fade" id="etapa2" role="tabpanel" aria-labelledby="endereco-tab">
                 2
+                <button onclick="alteraEtapa(1)" class="btn btn-info">Voltar</button>
+                <button onclick="alteraEtapa(3)" class="btn btn-info">Avançar</button>
             </div>
+
+            <div class="tab-pane fade" id="etapa3" role="tabpanel" aria-labelledby="contato-tab">
+              3
+              <button onclick="alteraEtapa(2)" class="btn btn-info">Voltar</button>
+              <button onclick="alteraEtapa(4)" class="btn btn-info">Avançar</button>
+            </div>
+
+            <div class="tab-pane fade" id="etapa4" role="tabpanel" aria-labelledby="documentos-tab">
+              4
+              <button onclick="alteraEtapa(3)" class="btn btn-info">Voltar</button>
+              <button onclick="alteraEtapa(5)" class="btn btn-info">Avançar</button>
+            </div>
+
+            <div class="tab-pane fade" id="etapa5" role="tabpanel" aria-labelledby="formacao-academica-tab">
+              5
+              <button onclick="alteraEtapa(4)" class="btn btn-info">Voltar</button>
+              <button onclick="alteraEtapa(6)" class="btn btn-info">Avançar</button>
+            </div>
+
+            <div class="tab-pane fade" id="etapa6" role="tabpanel" aria-labelledby="dados-gerais-trabalahdor-tab">
+              6
+              <button onclick="alteraEtapa(5)" class="btn btn-info">Voltar</button>
+              <button onclick="alteraEtapa(7)" class="btn btn-info">Avançar</button>
+            </div>
+
+            <div class="tab-pane fade" id="etapa7" role="tabpanel" aria-labelledby="experencia-professionais-tab">
+              7
+              <button onclick="alteraEtapa(6)" class="btn btn-info">Voltar</button>
+              <button onclick="alteraEtapa(8)" class="btn btn-info">Avançar</button>
+            </div>
+
+              8
+              <button onclick="alteraEtapa(7)"  class="btn btn-info">Voltar</button>
+            </div>
+
+          </div>
 
           </div>
     </div>
